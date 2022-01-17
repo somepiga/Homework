@@ -1,0 +1,217 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom left, #2e3b4e, #0d0d13 52%, #0d0d13)
+}
+.w {
+    width: 1200px;
+    margin: auto;
+} 
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.header {
+    width: 1690.67px;
+    height: 84px;
+    background-color: #323235;
+    margin: 30px 0;
+}
+
+.ai {
+    float: left;
+    width: 142px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav ul li a {
+    display: block;
+    height: 62px ;
+    padding: 0 40px;
+    font-size: 35px;
+    color: #C9C9DD;
+}
+
+.nav ul li a:hover {
+    color: #f3c258;
+    border-bottom:3px solid #f3c258;
+}
+
+
+
+.title {
+    width: 1690.67px;
+    height: 60px;
+    background-color:rgba(50, 50, 53,.3);
+    font-size: 40px;
+    color: #C9C9DD;
+    text-align: center;
+    line-height: 60px;
+}
+/* 主体部分 */
+.information {
+    width: 1690.67px;
+    height: 1100px;
+    /* background-color: aqua; */
+    border: 1px solid transparent;
+}
+
+
+
+
+
+.web {
+    float: left;
+    width: 500px;
+    height: 190px;
+    background-color:rgba(50, 50, 53,.4);
+    margin: 30px ;
+    border-radius: 20px;
+}
+
+.web:hover {
+    background-color:rgba(50, 50, 53,.7);
+}
+
+
+.web .inner-l ul {
+    float: left;
+}
+
+.web li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 8px;
+    color: #c9c9dd;
+}
+
+.ppt {
+    float: left;
+    width: 500px;
+    height: 190px;
+    background-color:rgba(50, 50, 53,.4);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.ppt:hover {
+    background-color:rgba(50, 50, 53,.7);
+}
+
+.ppt .inner-m ul {
+    float: left;
+}
+
+.ppt li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 8px;
+    color: #c9c9dd;
+}
+
+
+.document {
+    float: left;
+    width: 500px;
+    height: 190px;
+    background-color:rgba(50, 50, 53,.4);
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.document:hover {
+    background-color:rgba(50, 50, 53,.7);
+}
+
+.document .inner-r ul {
+    float: left;
+}
+
+.document li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 8px;
+    color: #c9c9dd;
+}
+
+/* 第二层学校部分 */
+.below {
+    width: 1680px;
+    height: 160px;
+    background-color:rgba(50, 50, 53,.4) ;
+    margin-left: 0%;
+    border-radius: 20px;
+}
+
+.school  {
+    width: 1680px;
+    height: 400px;
+    /* background-color: azure; */
+    margin :300px 0px;
+}
+
+.bd,.zd,.gf,.dzkd,.xj{
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin: 30px;
+}
+
+.qh {
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.hgd {
+    width: 100px;
+    height: 180px;
+    float: left;
+    margin: 30px;
+}
+
+
+.school span {
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 33px;
+    margin-left: 750px;
+    color: #c9c9dd;
+}
+
+.word {
+    width: 1690.67px;
+    height: 60px;
+    background-color:rgba(50, 50, 53,.3);
+    font-size: 40px;
+    color: #C9C9DD;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,74 @@
+body {
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    background-image: linear-gradient(to bottom left, #2e3b4e, #0d0d13 52%, #0d0d13)
+}
+.w {
+    width: 1200px;
+    margin: auto;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1690.67px;
+    height: 84px;
+    background-color: #323235;
+    margin: 30px 0;
+}
+
+.ai {
+    float: left;
+    width: 142px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav ul li a {
+    display: block;
+    height: 62px ;
+    padding: 0 40px;
+    font-size: 35px;
+    color: #C9C9DD;
+}
+
+.nav ul li a:hover {
+    color: #f3c258;
+    border-bottom:3px solid #f3c258;
+}
+
+.title {
+    width: 1690.67px;
+    height: 60px;
+    background-color:rgba(50, 50, 53,.3);
+    font-size: 40px;
+    color: #C9C9DD;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* 文字部分 */
+.word {
+    width: 1400px;
+    height: 1000px;
+    background-color: rgba(50, 50, 53,.3);
+    color: #C9C9DD;
+    font-size: 30px;
+}
+
+.word span {
+    margin-left: 650px;
+    font-size: 40px;
+}
